@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description','listing-reading-time','listing-categories','listing-image','listing-image-alt',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="Home / The Blog">
-<meta name="twitter:image" content="https://github.com/mattsams89/mattsams/posts/box_part1/box_logo.png">
+<meta name="twitter:image" content="https://github.com/mattsams89/mattsams/posts/r-deep-dives/box-overview/box_logo.png">
 <meta name="twitter:image-height" content="277">
 <meta name="twitter:image-width" content="240">
 <meta name="twitter:card" content="summary_large_image">
@@ -168,15 +168,37 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="R,code" data-listing-date-sort="1674709200000" data-listing-file-modified-sort="1677445716950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="quarto-post image-right" data-index="0" data-categories="R,code" data-listing-date-sort="1674709200000" data-listing-file-modified-sort="1703040889971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
 <div class="thumbnail">
-<p><a href="./posts/box_part1/index.html"> <img src="./posts/box_part1/box_logo.png" class="thumbnail-image"> </a></p>
+<p><a href="./posts/r-deep-dives/box-overview/index.html"> <img src="./posts/r-deep-dives/box-overview/box_logo.png" class="thumbnail-image" alt="The logo for the R box package"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/box_part1/index.html">
+<a href="./posts/r-deep-dives/box-overview/index.html">
 <h3 class="no-anchor listing-title">
-A Look at {box} (WIP)
+{box}
 </h3>
 <div class="listing-subtitle">
 
@@ -190,19 +212,19 @@ R
 code
 </div>
 </div>
-<a href="./posts/box_part1/index.html">
+<a href="./posts/r-deep-dives/box-overview/index.html">
 <div class="listing-description">
-Well, I haven’t written a blog post in going on 5 years now, so what better way to get back into the swing of things than to write an…<del></del><code></code>
+<p>A way-too-deep dive into the {box} package</p>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/box_part1/index.html">
+<a href="./posts/r-deep-dives/box-overview/index.html">
 <div class="listing-date">
 Jan 26, 2023
 </div>
-<div class="listing-author">
-Matt Sams
+<div class="listing-reading-time">
+8 min
 </div>
 </a>
 </div>
