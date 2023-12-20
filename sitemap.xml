@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/mattsams89/mattsams/posts/box_part1/index.html</loc>
+    <lastmod>2023-12-20T01:09:47.467Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/mattsams89/mattsams/about.html</loc>
-    <lastmod>2023-02-26T21:09:32.644Z</lastmod>
+    <lastmod>2023-12-20T01:09:45.082Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/mattsams89/mattsams/index.html</loc>
-    <lastmod>2023-02-26T21:09:33.083Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/mattsams89/mattsams/posts/box_part1/index.html</loc>
-    <lastmod>2023-02-26T21:09:35.040Z</lastmod>
+    <lastmod>2023-12-20T01:09:45.568Z</lastmod>
   </url>
 </urlset>
