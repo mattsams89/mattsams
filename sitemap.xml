@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mattsams.com/posts/r-deep-dives/running-data-analysis-1/index.html</loc>
-    <lastmod>2024-09-03T07:29:20.788Z</lastmod>
-  </url>
-  <url>
     <loc>https://mattsams.com/index.html</loc>
     <lastmod>2024-08-31T07:24:57.328Z</lastmod>
   </url>
   <url>
     <loc>https://mattsams.com/about.html</loc>
     <lastmod>2024-08-28T23:12:18.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mattsams.com/posts/general/aty-2024/01-recap/index.html</loc>
+    <lastmod>2025-01-08T06:45:04.155Z</lastmod>
   </url>
 </urlset>
